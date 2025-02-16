@@ -1,0 +1,24 @@
+.presentation {
+  background: #64c2ed;
+  border-radius: 5px;
+  width: 100%;
+  height: 270px;
+  font-size: 34px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin-bottom: 50px;
+}
+.presentation p{
+  padding: 20px;
+}
+
+.btn-contacte{
+  text-decoration: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background: #2132ec;
+  box-shadow: 1px 1px 1px #ffffff;
+  margin-left: 220px;
+}

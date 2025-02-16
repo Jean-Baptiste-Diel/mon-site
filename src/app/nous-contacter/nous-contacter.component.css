@@ -1,0 +1,21 @@
+.nous-contacter_container {
+
+}
+
+.nous-contacter_container h2{
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-size: 34px;
+}
+
+.nous-contacter{
+  background: #273b44;
+  color: white;
+  width: 100%;
+  height: 300px;
+}
+.coop{
+  background: #181818;
+  color: white;
+  width: 100%;
+  height: 30px;
+}
