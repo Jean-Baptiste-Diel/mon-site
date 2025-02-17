@@ -4,7 +4,7 @@
 
 .nous-contacter_container h2{
   font-family: "Lucida Sans Unicode", sans-serif;
-  font-size: 34px;
+  font-size: 28px;
 }
 
 .nous-contacter{
@@ -12,6 +12,10 @@
   color: white;
   width: 100%;
   height: 300px;
+}
+.nous-contacter p{
+  color: white;
+  font-size: 24px;
 }
 .coop{
   background: #181818;

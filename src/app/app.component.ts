@@ -5,10 +5,17 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ServiceComponent } from './service/service.component';
 import {PourquoiNousComponent} from './pourquoi-nous/pourquoi-nous.component';
 import {NousContacterComponent} from './nous-contacter/nous-contacter.component';
+import {MesRealisationsComponent} from './mes-realisations/mes-realisations.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,PresentationComponent, NavbarComponent, ServiceComponent, PourquoiNousComponent, NousContacterComponent],
+  imports: [RouterOutlet,
+    PresentationComponent,
+    NavbarComponent,
+    ServiceComponent,
+    PourquoiNousComponent,
+    NousContacterComponent,
+    MesRealisationsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
