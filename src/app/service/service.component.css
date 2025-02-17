@@ -39,7 +39,7 @@
 
 /* Ecran taille tablette et plus */
 
-@media (min-width: 1024px) {
+@media (min-width: 924px) {
   .services-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
