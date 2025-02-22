@@ -4,13 +4,30 @@
   width: 100%;
   height: 270px;
   font-size: 19px;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  //font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   margin-bottom: 50px;
+  padding-top: 50px;
 }
-.presentation p{
-  padding: 20px;
+.text{
+  padding-top: 15px;
+  padding-left: 20px;
 }
-
+.text span{
+  position: absolute;
+  justify-content: center;
+}
+.text_1{
+  opacity: 0.0;
+  font-size: 39px;
+}
+.text_2 {
+  opacity: 0.0;
+  font-size: 39px;
+}
+.text_3 {
+  opacity: 0.0;
+  font-size: 25px;
+}
 .btn-contacte{
   text-decoration: none;
   width: 150px;
@@ -19,6 +36,13 @@
   border: none;
   color: white;
   box-shadow: 1px 1px 1px #ffffff;
-  background: #6d78ee;
-  margin-left: 220px;
+  background: #06139f;
+  margin-left: 240px;
+  margin-top: 100px;
+}
+
+@media  screen and (min-width: 924px) {
+  .text_3{
+    opacity: 1.0;
+  }
 }

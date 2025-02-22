@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {NgOptimizedImage} from '@angular/common';
 
 @Component({
   selector: 'app-nous-contacter',
@@ -7,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './nous-contacter.component.css'
 })
 export class NousContacterComponent {
-
+imageUrl: string = 'assets/images/r.jpg';
 }
