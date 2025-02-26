@@ -1,12 +1,10 @@
 .presentation {
-  background: #64c2ed;
   border-radius: 5px;
   width: 100%;
   height: 270px;
   font-size: 19px;
   margin-bottom: 50px;
   padding-top: 50px;
-  background: linear-gradient(to right, #06139f, #0e0701);
   color: white;
 }
 .text{

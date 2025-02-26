@@ -12,7 +12,7 @@
   position: relative;
   align-items: center;
   justify-content: center;
-  background: #21acec;
+  background: rgba(6, 19, 159, 0.3);
   border-radius: 15px;
   margin-top: 100px;
   width: 100%;
@@ -58,7 +58,6 @@
     position: relative;
     align-items: center;
     justify-content: center;
-    background: #21acec;
     border-radius: 5px;
     margin-top: 100px;
     margin-bottom: 50px;
