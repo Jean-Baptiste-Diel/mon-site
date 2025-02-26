@@ -6,10 +6,17 @@
 }
 body{
   background: linear-gradient(to right, #06139f, #0e0701);
-
 }
 
 h2{
   padding-left: 20px;
   font-size: 25px;
+}
+
+@media screen and (min-width: 924px) {
+  h2{
+    padding-left: 70px;
+    font-size: 35px;
+  }
+
 }
