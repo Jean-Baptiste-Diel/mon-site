@@ -2,7 +2,6 @@ body{
   margin: 0;
 }
 .navbar{
-  background: #64c2ed;
   display: flex;
   align-content: center;
   align-items: center;

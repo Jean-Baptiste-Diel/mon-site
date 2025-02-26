@@ -1,7 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 *{
+  color: white;
   margin: 0;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+body{
+  background: linear-gradient(to right, #06139f, #0e0701);
+
 }
 
 h2{
