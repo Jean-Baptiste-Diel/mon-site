@@ -1,41 +1,112 @@
-.realisation-container{
+#realisations{
+  padding: 120px 8%;
+  background: #0f172a;
+}
+
+.section-title{
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.section-title span{
+  color: #38bdf8;
+  font-size: .9rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.section-title h2{
   color: white;
-  display: flex;
-  width: 95%;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto 50px;
-
-
+  font-size: 3rem;
+  margin-top: 10px;
 }
-.realisation {
+
+.section-title p{
+  max-width: 700px;
+  margin: 20px auto;
+  color: #94a3b8;
+  line-height: 1.8;
+}
+
+.realisation-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+  gap: 30px;
+}
+
+.realisation{
+  background: #1e293b;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: .4s;
+  border: 1px solid rgba(255,255,255,.05);
+}
+
+.realisation:hover{
+  transform: translateY(-10px);
+  border-color: #38bdf8;
+  box-shadow: 0 20px 40px rgba(56,189,248,.15);
+}
+
+.image{
+  height: 220px;
   display: flex;
-  position: relative;
-  align-items: center;
   justify-content: center;
-  border-radius: 5px;
-  width: 100%;
-  height: 300px;
-  margin-top: 50px;
-  //box-shadow: 5px 2px 15px #06139f;
-  background: rgba(6, 19, 159, 0.3);
+  align-items: center;
+  font-size: 5rem;
 }
 
-@media (min-width: 924px) {
-  .realisation-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-  }
+.mobile-app{
+  background: linear-gradient(
+    135deg,
+    #38bdf8,
+    #0ea5e9
+  );
+}
 
-  .realisation {
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    margin-bottom: 50px;
-    width: 100%;
-    height: 300px;
-  }
+.fintech{
+  background: linear-gradient(
+    135deg,
+    #22c55e,
+    #15803d
+  );
+}
+
+.devops{
+  background: linear-gradient(
+    135deg,
+    #8b5cf6,
+    #6d28d9
+  );
+}
+
+.content{
+  padding: 25px;
+}
+
+.content h3{
+  color: white;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.description{
+  color: #cbd5e1;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.technologies{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.technologies span{
+  background: rgba(56,189,248,.15);
+  color: #38bdf8;
+  padding: 8px 15px;
+  border-radius: 30px;
+  font-size: .85rem;
+  font-weight: 500;
 }

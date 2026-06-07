@@ -1,30 +1,89 @@
-.nous-contacter_container {
-
+#contact{
+  background: #020617;
+  padding: 120px 8%;
 }
 
+.nous-contacter_container{
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
 
+.section-tag{
+  color: #38bdf8;
+  font-size: .9rem;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.nous-contacter_container h2{
+  margin-top: 15px;
+  font-size: 3rem;
+  color: white;
+}
+
+.intro{
+  max-width: 700px;
+  margin: 25px auto 60px;
+  color: #94a3b8;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
 
 .nous-contacter{
-  color: white;
-  width: 100%;
-  height: 300px;
-}
-.nous-contacter p{
-  color: white;
-  font-size: 14px;
-  padding-left: 20px;
-}
-.coop{
-  color: white;
-  width: 100%;
-  height: 30px;
-  background: #0e0701;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 25px;
 }
 
-@media screen and (min-width: 968px) {
-  .nous-contacter p{
-    color: white;
-    font-size: 17px;
-    padding-left: 70px;
-  }
+.card-contact{
+  background: #0f172a;
+  padding: 35px 25px;
+  border-radius: 20px;
+  transition: .4s;
+  border: 1px solid rgba(255,255,255,.05);
+}
+
+.card-contact:hover{
+  transform: translateY(-10px);
+  border-color: #38bdf8;
+  box-shadow: 0 15px 35px rgba(56,189,248,.15);
+}
+
+.icon{
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.card-contact h3{
+  color: white;
+  margin-bottom: 10px;
+}
+
+.card-contact p{
+  color: #94a3b8;
+}
+
+.coop{
+  margin-top: 50px;
+}
+
+.btn-contact{
+  display: inline-block;
+  text-decoration: none;
+  background: linear-gradient(
+    135deg,
+    #38bdf8,
+    #0ea5e9
+  );
+  color: white;
+  padding: 16px 40px;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.btn-contact:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(56,189,248,.3);
 }

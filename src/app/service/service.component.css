@@ -1,68 +1,97 @@
-.services-container {
-  width: 93%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto 50px;
-
+#services{
+  padding: 120px 8%;
+  background: #020617;
 }
 
-.service {
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  background: rgba(6, 19, 159, 0.3);
-  border-radius: 15px;
-  margin-top: 100px;
-  width: 100%;
-  height: 300px;
-}
-
-.titre {
-  font-size: 24px;
-  color: rgba(255, 255, 255, 0.87);
+.section-title{
   text-align: center;
-  padding: 10px;
+  margin-bottom: 70px;
 }
-.image {
-  position: absolute;
-  top: -50px;
-  background: #ffffff;
-  width: 110px;
-  height: 110px;
+
+.section-title span{
+  color: #38bdf8;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.section-title h2{
+  color: white;
+  font-size: 3rem;
+  margin: 15px 0;
+}
+
+.section-title p{
+  color: #94a3b8;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+.services-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+  gap: 30px;
+}
+
+.service{
+  background: #0f172a;
+  padding: 35px;
+  border-radius: 20px;
+  text-align: center;
+  transition: .4s;
+  border: 1px solid rgba(255,255,255,.05);
+}
+
+.service:hover{
+  transform: translateY(-10px);
+  border-color: #38bdf8;
+  box-shadow: 0 15px 35px rgba(56,189,248,.15);
+}
+
+.image{
+  width: 90px;
+  height: 90px;
+  margin: auto;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  margin-bottom: 25px;
 }
-.dg{
 
+.web{
+  background: linear-gradient(135deg,#38bdf8,#0284c7);
 }
 
-/* Ecran taille tablette et plus */
+.mobile{
+  background: linear-gradient(135deg,#22c55e,#15803d);
+}
 
-@media (min-width: 924px) {
-  .services-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-  }
-  .image{
-    position: absolute;
-    top: -50px;
-    background: #ffffff;
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
-  }
+.backend{
+  background: linear-gradient(135deg,#f59e0b,#d97706);
+}
 
-  .service {
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    width: 100%;
-    height: 300px;
-  }
+.automation{
+  background: linear-gradient(135deg,#8b5cf6,#6d28d9);
+}
+
+.cloud{
+  background: linear-gradient(135deg,#06b6d4,#0891b2);
+}
+
+.support{
+  background: linear-gradient(135deg,#ef4444,#dc2626);
+}
+
+.titre{
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.description{
+  color: #cbd5e1;
+  line-height: 1.7;
 }
